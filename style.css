@@ -1,0 +1,148 @@
+body {
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://cdn.hipwallpaper.com/i/55/89/o7kiUh.jpg);
+	background-size: 100%;
+	background-repeat: repeat;
+	height: 100%;
+}
+
+h1 {
+	padding-top: 50px;
+	position: static;
+	font: 92px 'Permanent Marker', cursive;
+	letter-spacing: 5px;
+	color: #212529; 
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	text-shadow: 2px 2px 4px rgba(0,0,0, 0.5);
+}
+
+
+h2 {
+	color: white;
+	font: 20px 'Permanent Marker', cursive;
+	position: static;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+ul:empty {
+	display: none;
+}
+
+.done {
+  text-decoration: line-through;
+  background-color: #c3e6cb !important;
+  border-radius: 0 10px 10px 0;
+}
+
+.close {
+	margin-right: 10px;
+	margin-top: 10px;
+
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    outline:none;
+    font-size: 22px;
+    opacity: 0.8 !important;
+}
+
+.close:hover {
+    opacity: 1 !important;
+}
+
+.input:placeholder {
+	color: black;
+	opacity: 1;
+	font-family: 'Indie Flower', cursive;
+}
+
+input[type='text'] { 
+	font: 18px 'Indie Flower', cursive;
+}
+
+.enter {
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.input-group {
+	padding: 0px;
+	margin: 0px;
+  box-shadow: 0 8px 6px -6px grey;
+}
+
+.notepad {
+	background-color: #ffeed9;
+	margin: 50px;
+	border-radius: 0 10px 10px 0;
+}
+
+
+.list {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  font-family: 'Indie Flower', cursive;
+  border: 1px solid #dedede;
+  position: relative;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.notepad:empty {
+
+}
+
+.list:before {
+	content: "";
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  width: 2px;
+  position: absolute;
+  height: 100%;
+  left: 25px;
+}
+
+.list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 10px 5px 10px 50px;
+  text-transform: capitalize;
+  font-family: 'Indie Flower', cursive;
+  background-color: #ffeed9;
+}
+
+.list li:hover {
+	background-color: #c3e6cb;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  border-radius: 0 10px 10px 0;
+}
+.list li:active {
+	background-color: #82e899;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  border-radius: 0 10px 10px 0;
+}
+
+.list li:last-child {
+  border-bottom: 0;
+}
