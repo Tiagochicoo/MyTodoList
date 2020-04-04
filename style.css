@@ -146,3 +146,7 @@ input[type='text'] {
 .list li:last-child {
   border-bottom: 0;
 }
+
+footer {
+  text-align: center;
+}
